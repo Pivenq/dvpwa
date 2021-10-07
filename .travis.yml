@@ -8,7 +8,6 @@ branches:
   - main
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
   - pip install flake8
 script:
   - run flake8
